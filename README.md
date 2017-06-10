@@ -1,6 +1,8 @@
 # mix-release-docker
 
-One command to build a small-ish Docker image for your Phoenix app.
+Just run `build.sh` to get a small and fully functional Phoenix docker image.
+
+You can customize the Dockerfiles too.
 
 ## Why?
 
