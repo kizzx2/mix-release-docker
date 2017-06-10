@@ -1,0 +1,5 @@
+FROM msaraiva/elixir
+
+ADD hello_phoenix.tar.gz /opt/app/
+
+CMD trap exit TERM; /opt/app/bin/hello_phoenix foreground & wait
